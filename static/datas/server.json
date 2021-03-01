@@ -1,0 +1,32 @@
+[
+    {
+        "id": "asset123456",
+        "ownerCode": "rack-1",
+        "u": 1,
+        "type": "FBXModel",
+        "url": "./model/asset/huipu_DL380.fbx",
+        "scale": 1,
+        "children": [],
+        "property": {
+            "名称": "IBM-X3860服务器",
+            "U高": "1",
+            "起始U": 2,
+            "负责人": "张娜"
+        }
+    },
+    {
+        "id": "asset22222",
+        "ownerCode": "rack-1",
+        "u": 10,
+        "type": "FBXModel",
+        "url": "./model/asset/huipu_DL380.fbx",
+        "scale": 1,
+        "children": [],
+        "property": {
+            "名称": "IBM-X3860服务器",
+            "U高": "1",
+            "起始U": 20,
+            "负责人": "张娜"
+        }
+    }
+]

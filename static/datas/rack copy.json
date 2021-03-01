@@ -1,0 +1,173 @@
+[
+	{
+		"id": "rack-1",
+		"ownerCode": "room1",
+		"uHeight": 42,
+		"url": "./model/rack/rack2021/rack2020.fbx",
+		"type": "FBXModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": -7,
+			"y": 0,
+			"z": 0
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 0.01,
+		"children": []
+	},
+	{
+		"id": "rack-2",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 0
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-3",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 0.618
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-4",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 1.236
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-5",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 1.854
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-6",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 2.472
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-7",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 3.09
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-8",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 3.708
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-9",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 4.326
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	},
+	{
+		"id": "rack-10",
+		"ownerCode": "room1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 5.9,
+			"y": 0,
+			"z": 4.944
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	}
+]

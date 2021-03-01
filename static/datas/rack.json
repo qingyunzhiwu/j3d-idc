@@ -1,0 +1,37 @@
+[
+	{
+		"id": "rack-1",
+		"ownerCode": "room-1",
+		"uHeight": 42,
+		"url": "./model/rack/rack2021/rack2020.fbx",
+		"type": "FBXModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 0.01,
+		"children": []
+	},
+	{
+		"id": "rack-2",
+		"ownerCode": "room-1",
+		"url": "./model/rack/rack.glb",
+		"type": "GLTFModel",
+		"opacity": 1,
+		"receiveShadow": true,
+		"castShadow": true,
+		"position": {
+			"x": 1.9,
+			"y": 0,
+			"z": 0
+		}, 
+		"rotation": { "y": -1.57 },
+		"scale": 1,
+		"children": []
+	}
+]

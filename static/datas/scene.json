@@ -1,0 +1,218 @@
+[
+  {
+    "id": "scene_room_jf_xl_1f",
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin",
+        "intensity":2.5
+      }
+    ],
+    "children": {
+      "room_jf_xl_1f": {
+        "id": "room_jf_xl_1f",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_1f.glb",
+        "title":"一层机房",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "scene_room_jf_xl_bazx_2f",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin",
+        "intensity":2.5
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "room_jf_xl_bazx_2f",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_bazx_2f.glb",
+        "title":"二层机房",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "sceen_room_jf_xl_3f",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin",
+        "intensity":2.5
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "room_jf_xl_3f",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_3f.glb",
+        "title":"三层机房",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "scene_room_jf_xl_5f",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin",
+        "intensity":2.5
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "room_jf_xl_5f",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_5f.glb",
+        "title":"五层机房",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "scene_room_jf_xl_bfzx",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin",
+        "intensity":2.5
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "room_jf_xl_bfzx",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_bfzx.glb",
+        "title":"BF层机房",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          },
+          {
+            "type": "CreateChildModelPlugin",
+            "models": [
+              {
+                "id": "room-1",
+                "findModelName": "room-1"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "scene_yejing0131",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultLightPlugin"
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "yejing0131",
+        "type": "GLTFModel",
+        "url": "../../demo/yq/model/yejing0131.glb",
+        "title":"yejing0131机房",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          },
+          {
+            "type": "CreateChildModelPlugin",
+            "models": [
+              {
+                "id": "room-1",
+                "findModelName": "room-1"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

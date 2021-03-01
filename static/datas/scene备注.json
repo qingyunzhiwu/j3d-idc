@@ -1,0 +1,173 @@
+[
+  {
+    //场景ID,建议是scene前缀加模型文件名称
+    "id": "scene_yancao",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    //默认场景相机，如果用这个功能，需要把plugins里面的"type": "DefaultCameraPostionPlugin" 删除
+    "camera":{
+      "position":{
+        "x": -6.5887120887590855,
+        "y": 18.375168022322562,
+        "z": 10.632899133323084
+      }
+    },
+    "events": {},
+    "plugins": [
+      {
+        //自动设置摄像机位置插件
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        //自动在模型4个人角摆放4个平行灯光的插件
+        "type": "DefaultLightPlugin"
+      }
+    ],
+      //场景里的房间模型
+    "children": {
+      //room-1必须是模型文件的ID
+      "room-1": {
+        //ID建议与模型文件名字一致
+        "id": "yancao",
+        "type": "GLTFModel",
+        "url": "./model/scene/yancao.glb",
+        "isHasFouce": false,
+        "scale": 1,
+        //模型接收阴影
+        "receiveShadow": true,
+        //模型不产生阴影
+        "castShadow": false,
+        "plugins": [
+          {
+            //使模型里叫qiang_bo名字的子模型透明（玻璃插件）
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          },
+          {
+            "type": "CreateChildModelPlugin",
+            "models": [
+              {
+                //与children的room-1相对应，与文件
+                "id": "room-1",
+                "findModelName": "room-1"
+              }
+            ]
+          }
+        ],
+        "children": {
+          "room1": {
+            "type": "GroupModel",
+            "position": {
+              "x": -13.2,
+              "y": 1.2,
+              "z": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "scene_room_jf_xl_3f",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin"
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "jf_xl_3f",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_3f.glb",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          },
+          {
+            "type": "CreateChildModelPlugin",
+            "models": [
+              {
+                "id": "room-1",
+                "findModelName": "room-1"
+              }
+            ]
+          }
+        ],
+        "children": {
+          "room1": {
+            "type": "GroupModel",
+            "position": {
+              "x": -13.2,
+              "y": 1.2,
+              "z": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "scene_room_jf_xl_bazx_2f",
+    "nextSceneId": null,
+    "prevSceneId": null,
+    "type": "Three3DScene",
+    "events": {},
+    "plugins": [
+      {
+        "type": "DefaultCameraPostionPlugin"
+      },
+      {
+        "type": "DefaultLightPlugin"
+      }
+    ],
+    "children": {
+      "room-1": {
+        "id": "jf_xl_bazx_2f",
+        "type": "GLTFModel",
+        "url": "./model/scene/room_jf_xl_bazx_2f.glb",
+        "isHasFouce": false,
+        "scale": 1,
+        "receiveShadow": true,
+        "castShadow": false,
+        "plugins": [
+          {
+            "type": "GlassPlugin",
+            "renderName": "qiang_bo"
+          },
+          {
+            "type": "CreateChildModelPlugin",
+            "models": [
+              {
+                "id": "room-1",
+                "findModelName": "room-1"
+              }
+            ]
+          }
+        ],
+        "children": {
+          "room1": {
+            "type": "GroupModel",
+            "position": {
+              "x": -13.2,
+              "y": 1.2,
+              "z": 0
+            }
+          }
+        }
+      }
+    }
+  }
+]
